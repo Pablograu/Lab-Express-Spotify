@@ -1,0 +1,9 @@
+<main>
+    <article class="artist-card">
+        {{#each artistArray}}
+        {{this.name}}
+        <img src={{this.images.1.url}} width="100px" alt="fotiko wena">
+        <a href="/albums/{{this.id}}">View Albums</a>
+        {{/each}}
+    </article>
+</main>
